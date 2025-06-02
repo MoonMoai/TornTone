@@ -3,10 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
         xmlns:local="clr-namespace:TornTone_WPF"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        WindowStyle="None" AllowsTransparency="True" BorderThickness="1"
+        ResizeMode="CanResizeWithGrip"
+        mc:Ignorable="d" Height="450" Width="800">
     <Grid>
-
+        <StackPanel>
+            <ui:TitleBar Title="TornTone - Solve the problem of being torn between different tones."/>
+            <ui:Card Margin="8">
+                <ui:Button Content="Hello World" Icon="{ui:SymbolIcon Fluent24}" />
+            </ui:Card>
+        </StackPanel>
     </Grid>
 </Window>

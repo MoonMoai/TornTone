@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Wpf.Ui.Appearance;
 
 namespace TornTone_WPF
 {
@@ -19,6 +20,7 @@ namespace TornTone_WPF
         public MainWindow()
         {
             InitializeComponent();
+            ApplicationThemeManager.Apply(this);
         }
     }
 }

@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{FA53DA2A-7DA2-4875-958E-177EF611B2B1}|TornTone_WPF\\TornTone_WPF.csproj|solutionrelative:torntone_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA53DA2A-7DA2-4875-958E-177EF611B2B1}|TornTone_WPF\\TornTone_WPF.csproj|d:\\moonmoai_gitrepository\\torntone\\torntone_wpf\\torntone_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA53DA2A-7DA2-4875-958E-177EF611B2B1}|TornTone_WPF\\TornTone_WPF.csproj|D:\\MoonMoai_GitRepository\\TornTone\\TornTone_WPF\\torntone_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA53DA2A-7DA2-4875-958E-177EF611B2B1}|TornTone_WPF\\TornTone_WPF.csproj|solutionrelative:torntone_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA53DA2A-7DA2-4875-958E-177EF611B2B1}|TornTone_WPF\\TornTone_WPF.csproj|d:\\moonmoai_gitrepository\\torntone\\torntone_wpf\\torntone_wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FA53DA2A-7DA2-4875-958E-177EF611B2B1}|TornTone_WPF\\TornTone_WPF.csproj|solutionrelative:torntone_wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1013,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,6 +54,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\MoonMoai_GitRepository\\TornTone\\TornTone_WPF\\TornTone_WPF\\App.xaml",
+              "RelativeDocumentMoniker": "TornTone_WPF\\App.xaml",
+              "ToolTip": "D:\\MoonMoai_GitRepository\\TornTone\\TornTone_WPF\\TornTone_WPF\\App.xaml",
+              "RelativeToolTip": "TornTone_WPF\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T01:43:26.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\MoonMoai_GitRepository\\TornTone\\TornTone_WPF\\TornTone_WPF\\MainWindow.xaml",
@@ -68,7 +84,7 @@
               "RelativeDocumentMoniker": "TornTone_WPF\\MainWindow.xaml.cs",
               "ToolTip": "D:\\MoonMoai_GitRepository\\TornTone\\TornTone_WPF\\TornTone_WPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "TornTone_WPF\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T08:50:44.198Z",
               "EditorCaption": ""

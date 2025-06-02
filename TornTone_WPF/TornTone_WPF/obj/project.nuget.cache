@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xalj1+CznTiRhFIlQbToXLRPFgzzSlej+ykKmz+HiGPY856MlWx5yv6XuE4aj/eLubK2F8/EdOQA7pxOtZhArQ==",
+  "dgSpecHash": "+2v9YErX/WiaCyvznrx/bEHBx2ejYxwCAh727QTTFGWkryov2ta+d3h8ADHPQVV9vgGa1iJMQgHAxaTbOyZjoQ==",
   "success": true,
   "projectFilePath": "D:\\MoonMoai_GitRepository\\TornTone\\TornTone_WPF\\TornTone_WPF\\TornTone_WPF.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\wpf-ui\\4.0.2\\wpf-ui.4.0.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\wpf-ui.abstractions\\4.0.2\\wpf-ui.abstractions.4.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

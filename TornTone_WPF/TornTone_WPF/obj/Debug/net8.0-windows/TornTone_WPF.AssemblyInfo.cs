@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TornTone_WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbd833c02afae754d7fa73ccdb6c7e978f91e71d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f2fd3a86d5c4fadfdd3706ad75ec76326fbb784")]
 [assembly: System.Reflection.AssemblyProductAttribute("TornTone_WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TornTone_WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

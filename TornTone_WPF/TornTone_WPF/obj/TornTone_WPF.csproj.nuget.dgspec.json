@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "WPF-UI": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
