@@ -7,7 +7,27 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="UI\Navigation\HistoryPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Navigation\HomePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Navigation\TakePhotoPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="UI\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Navigation\HistoryPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Navigation\HomePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Navigation\TakePhotoPage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

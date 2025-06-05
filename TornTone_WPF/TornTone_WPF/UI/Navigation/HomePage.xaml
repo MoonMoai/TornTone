@@ -1,0 +1,39 @@
+﻿<Page x:Class="TornTone_WPF.UI.Navigation.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      xmlns:local="clr-namespace:TornTone_WPF.UI.Navigation"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PersonalColorPhoto">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" x:Name="takePhoto" HorizontalAlignment="Center"
+                Content="퍼스널컬러 포토"
+                FontWeight="ExtraBold"
+                Width="300" Height="100"
+                Padding="12"
+                Click="btnTakePhoto_Click"></Button>
+
+        <Button Grid.Row="1" x:Name="history" HorizontalAlignment="Center"
+                Content="포토 히스토리"
+                FontWeight="ExtraBold"
+                Width="300" Height="100"
+                Padding="12"
+                Click="btnHistory_Click"></Button>
+
+        <ui:Button Grid.Row="2" HorizontalAlignment="Center"
+                Appearance="Primary"
+                Margin="5"
+                Content="Setting"
+                Icon="{ui:SymbolIcon Symbol=LauncherSettings20}" />
+    </Grid>
+</Page>

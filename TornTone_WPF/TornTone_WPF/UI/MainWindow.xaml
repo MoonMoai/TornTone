@@ -7,31 +7,40 @@
         xmlns:local="clr-namespace:TornTone_WPF"
         xmlns:viewModel="clr-namespace:TornTone_WPF.VM"
         d:DataContext="{d:DesignInstance Type=viewModel:MainWindowVM, IsDesignTimeCreatable=False}"
-        WindowStyle="None" AllowsTransparency="True" BorderThickness="1"
-        ResizeMode="CanResizeWithGrip"
+        ResizeMode="CanResizeWithGrip" Background="Transparent" 
         mc:Ignorable="d" Height="450" Width="800">
-    <Grid>
-        
-        <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
-        <ListView
-            Grid.Row="0"
-            DisplayMemberPath="Name"
-            ItemsSource="{Binding Photo}"
-            SelectedItem="{Binding SelectedPhoto, Mode=TwoWay}" />
-        <StackPanel Grid.Row="1" Orientation="Horizontal">
-            <TextBlock Margin="5" Text="{Binding SelectedPhoto.Id}" />
-            <TextBlock Margin="5" Text="{Binding SelectedPhoto.Title}" />
-        </StackPanel>
+    <!--WindowStyle="None" AllowsTransparency="True"-->
+    <Border Margin="5" BorderThickness="7" BorderBrush="White" Background="#F4F6F8" CornerRadius="20">
+        <Border.Effect>
+            <DropShadowEffect ShadowDepth="0" BlurRadius="10" Color="#F4F6F8" />
+        </Border.Effect>
 
-        <StackPanel>
-            <ui:TitleBar Title="TornTone"/>
-            <ui:Card Margin="8">
-                <ui:Button Content="Hello World" Icon="{ui:SymbolIcon Fluent24}" />
-            </ui:Card>
-        </StackPanel>
-    </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5 0">
+                <ui:Button Name="btnClose" HorizontalAlignment="Left" 
+                       CornerRadius="30" Appearance="Danger" Background="#FF605C"
+                       Margin="5 0 3 0" Padding="3" Height="20" Width="20"
+                       Icon="{ui:FontIcon '❌', FontSize=10 }" 
+                       Click="btnClose_Click" />
+                <ui:Button Name="btnMin" HorizontalAlignment="Left"
+                       CornerRadius="30" Appearance="Caution" Background="#FFBD44"
+                       Margin="3" Padding="4" Height="20" Width="20"
+                       Icon="{ui:FontIcon '➖'}"
+                       Click="btnMin_Click" />
+                <ui:Button Name="btnMax" HorizontalAlignment="Left"
+                       CornerRadius="30" Appearance="Success" Background="#00CA4E"
+                       Margin="3" Padding="4" Height="20" Width="20"
+                       Icon="{ui:FontIcon '⤢', FontSize=20}"
+                       Click="btnMax_Click" />
+            </StackPanel>
+
+            <Frame Grid.Row="1" Name="frame" NavigationUIVisibility="Hidden" Source="/UI/Navigation/HomePage.xaml"/>
+
+        </Grid>
+    </Border>
 </Window>
