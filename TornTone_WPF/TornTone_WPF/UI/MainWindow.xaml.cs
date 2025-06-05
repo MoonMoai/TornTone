@@ -22,7 +22,7 @@ namespace TornTone_WPF.UI
         public MainWindow(MainWindowVM mainWindowVM)
         {
             InitializeComponent();
-            ApplicationThemeManager.Apply(this);
+            //ApplicationThemeManager.Apply(this); // WPF UI 패키지 적용
 
             _mainWindowVM = mainWindowVM;
             this.DataContext = _mainWindowVM;
